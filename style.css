@@ -1,0 +1,89 @@
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.userName, .userInfo {
+	margin-top: 20px;
+	font-weight: bold;
+}
+
+.userName {
+	font-size: 30px;
+	font-style: italic;
+}
+
+.userInfo {
+	font-size: 20px;
+}
+
+a {
+	font-weight: bold;
+}
+
+img {
+	width: 200px;
+	height: 200px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	border: 2px solid #000;
+}
+
+h1, h2, h3 {
+	letter-spacing: 2px;
+}
+
+h2 {
+	font-weight: bold;
+}
+
+form {
+	border-radius: 7px;
+	background: #ECEEF3;
+    background: linear-gradient(right, #ECEEF3, #BCC2D6);
+    background: -webkit-linear-gradient(right, #ECEEF3, #BCC2D6);   
+    background: -moz-linear-gradient(right, #ECEEF3, #BCC2D6);
+    background: -ms-linear-gradient(right, #ECEEF3, #BCC2D6);
+    background: -o-linear-gradient(right, #ECEEF3, #BCC2D6);
+}
+
+.well {
+	border-radius: 7px;
+	border: 1px solid #000;
+	padding: 5px 5px 5px 5px;
+}
+
+.searchInput {
+	border: 2px solid #000;
+	border-radius: 7px;
+	padding-left: 5px;
+	font-size: 20px;
+}
+
+.submit {
+	border-radius: 7px;
+	width: 100px;
+	margin-left: 20px;
+}
+
+.submit:hover {
+	font-weight: bold;
+    color: rgba(140,122,174,0.90);
+    -webkit-transition: color 1.5s ease;               
+    -moz-transition: color 1.5s ease;                  
+    -o-transition: color 1.5s ease;                
+    -transition: color 1.5s ease;
+}
+
+.jumbotron {
+	padding-left: 10px;
+	background: #E0E7E4;
+    background: linear-gradient(right, #E0E7E4, #B6C8BF);
+    background: -webkit-linear-gradient(right, #E0E7E4, #B6C8BF);   
+    background: -moz-linear-gradient(right, #E0E7E4, #B6C8BF);
+    background: -ms-linear-gradient(right, #E0E7E4, #B6C8BF);
+    background: -o-linear-gradient(right, #E0E7E4, #B6C8BF);
+}

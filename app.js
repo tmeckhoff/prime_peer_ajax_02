@@ -40,10 +40,10 @@ function search(query){
 			callback(data);
 		},
 		error: function(errorType) { 
-            $(".searchResults").append("<p>" + "User not found" + "</p>");
+            $(".searchResults").append("<p>" + "User was not found!" + "</p>");
         },
         complete: function() {
-	        console.log('Ajax complete!');
+	        console.log("Ajax complete!");
 	    }
 	});
 }
@@ -58,10 +58,10 @@ function searchRepos(query){
 			reposCallback(data);
 		},
 		error: function(errorType) { 
-        		 $(".searchResults").append("<p>" + "User not found" + "</p>");
+        		 $(".searchResults").append("<p>" + "User was not found!" + "</p>");
         },
         complete: function() {
-	        console.log('Ajax complete!');
+	        console.log("Ajax complete!");
 	    }
 	});
 }
